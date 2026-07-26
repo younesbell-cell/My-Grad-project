@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unitMappingSet xmlns="http://www.energistics.org/energyml/data/uomv1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.energistics.org/energyml/data/uomv1 EnergisticsUnitOfMeasureDictionary_V1.0.xsd" version="1.0">
+	<title>Mapping from "Code - Unit of Measure" values in the "EPSG V8.1" data base to "unit/symbol" values in the "Energistics Unit of Measure Dictionary V1.0" dictionary.</title>
+	<originator>Energistics</originator>
+	<description>This document asserts a mapping from one dictionary to another. The mapping is between items which appear to have the same semantics (i.e., are aliases). All items in the "from" dictionary are listed. For each "from" item, if no "to" item is listed then there does not appear to be a direct mapping. This mapping is provided as an aid to migration and Energistics makes no guarantee of its accuracy. The European Petroleum Survey Group (EPSG) data base (see www.epsg.org) is maintained by the International Association of Oil and Gas producers (OGP) Geomatics Committee. This data is distributed under the Energistics License Agreement at http://www.energistics.org. Use of this file constitutes agreement with the Energistics License Agreement. Copyright (c) 2014 Energistics. All rights reserved.</description>
+	<unitMap>
+		<mapsFrom>1024</mapsFrom>
+		<mapsTo />
+		<state>unsupported</state>
+		<note>This represents a bin node index with an unknown distance between nodes.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9001</mapsFrom>
+		<mapsTo>m</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9002</mapsFrom>
+		<mapsTo>ft</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9003</mapsFrom>
+		<mapsTo>ft[US]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9005</mapsFrom>
+		<mapsTo>ft[Cla]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9014</mapsFrom>
+		<mapsTo>fathom</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9030</mapsFrom>
+		<mapsTo>mi[naut]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9031</mapsFrom>
+		<mapsTo>m[Ger]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9033</mapsFrom>
+		<mapsTo>chain[US]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9034</mapsFrom>
+		<mapsTo>link[US]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9035</mapsFrom>
+		<mapsTo>mi[US]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9036</mapsFrom>
+		<mapsTo>km</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9037</mapsFrom>
+		<mapsTo>yd[Cla]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9038</mapsFrom>
+		<mapsTo>chain[Cla]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9039</mapsFrom>
+		<mapsTo>link[Cla]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9040</mapsFrom>
+		<mapsTo>yd[Se]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9041</mapsFrom>
+		<mapsTo>ft[Se]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9042</mapsFrom>
+		<mapsTo>chain[Se]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9043</mapsFrom>
+		<mapsTo>link[Se]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9050</mapsFrom>
+		<mapsTo>yd[BnA]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9051</mapsFrom>
+		<mapsTo>ft[BnA]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9052</mapsFrom>
+		<mapsTo>chain[BnA]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9053</mapsFrom>
+		<mapsTo>link[BnA]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9060</mapsFrom>
+		<mapsTo>yd[BnB]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9061</mapsFrom>
+		<mapsTo>ft[BnB]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9062</mapsFrom>
+		<mapsTo>chain[BnB]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9063</mapsFrom>
+		<mapsTo>link[BnB]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9070</mapsFrom>
+		<mapsTo>ft[Br65]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9080</mapsFrom>
+		<mapsTo>ft[Ind]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9081</mapsFrom>
+		<mapsTo>ft[Ind37]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9082</mapsFrom>
+		<mapsTo>ft[Ind62]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9083</mapsFrom>
+		<mapsTo>ft[Ind75]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9084</mapsFrom>
+		<mapsTo>yd[Ind]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9085</mapsFrom>
+		<mapsTo>yd[Ind37]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9086</mapsFrom>
+		<mapsTo>yd[Ind62]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9087</mapsFrom>
+		<mapsTo>yd[Ind75]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9093</mapsFrom>
+		<mapsTo>mi</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9094</mapsFrom>
+		<mapsTo>ft[GC]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9095</mapsFrom>
+		<mapsTo>ft[Br36]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9096</mapsFrom>
+		<mapsTo>yd</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9097</mapsFrom>
+		<mapsTo>chain</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9098</mapsFrom>
+		<mapsTo>link</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9099</mapsFrom>
+		<mapsTo>yd[SeT]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9101</mapsFrom>
+		<mapsTo>rad</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9102</mapsFrom>
+		<mapsTo>dega</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9103</mapsFrom>
+		<mapsTo>mina</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9104</mapsFrom>
+		<mapsTo>seca</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9105</mapsFrom>
+		<mapsTo>gon</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9106</mapsFrom>
+		<mapsTo>gon</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9107</mapsFrom>
+		<mapsTo />
+		<state>conversion</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9108</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9109</mapsFrom>
+		<mapsTo>urad</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9110</mapsFrom>
+		<mapsTo />
+		<state>conversion</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9111</mapsFrom>
+		<mapsTo />
+		<state>conversion</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9112</mapsFrom>
+		<mapsTo>cgr</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9113</mapsFrom>
+		<mapsTo>ccgr</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9114</mapsFrom>
+		<mapsTo>mila</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9115</mapsFrom>
+		<mapsTo />
+		<state>conversion</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9116</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values. The concept of "hemisphere" must be captured independent of units of measure.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9117</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values. The concept of "hemisphere" must be captured independent of units of measure.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9118</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values. The concept of "hemisphere" must be captured independent of units of measure.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9119</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values. The concept of "hemisphere" must be captured independent of units of measure.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9120</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values. The concept of "hemisphere" must be captured independent of units of measure.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9121</mapsFrom>
+		<mapsTo />
+		<state>conversion</state>
+		<note>This represents a compound value. Convert each component to a common unit and sum the values.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9122</mapsFrom>
+		<mapsTo>dega</mapsTo>
+		<state>precision</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9201</mapsFrom>
+		<mapsTo>Euc</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9202</mapsFrom>
+		<mapsTo>ppm</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9203</mapsFrom>
+		<mapsTo />
+		<state>unsupported</state>
+		<note>Used when parameters are coefficients. They inherently take the units which depend upon the term to which the coefficient applies.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9204</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 330 feet apart. Conversion to metre from origin can be achieved by multiplying each index by 330 and applying the "ft[US]" to "m" conversion.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9205</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 165 feet apart. Conversion to metre from origin can be achieved by multiplying each index by 165 and applying the "ft[US]" to "m" conversion.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9206</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 82.5 feet apart. Conversion to metre from origin can be achieved by multiplying each index by 82.5 and applying the "ft[US]" to "m" conversion.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9207</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 37.5 metre apart. Conversion to metre from origin can be achieved by multiplying each index by 37.5.</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9208</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 25 metre apart. Conversion to metre from origin can be achieved by multiplying each index by 25 .</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9209</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 12.5 metre apart. Conversion to metre from origin can be achieved by multiplying each index by 12.5 .</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9210</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 6.25 metre apart. Conversion to metre from origin can be achieved by multiplying each index by 6.25 .</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9211</mapsFrom>
+		<mapsTo />
+		<state>conditional</state>
+		<note>This repesents bin node indices which are 3.125 metre apart. Conversion to metre from origin can be achieved by multiplying each index by 3.125 .</note>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9300</mapsFrom>
+		<mapsTo>ft[SeT]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9301</mapsFrom>
+		<mapsTo>chain[SeT]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+	<unitMap>
+		<mapsFrom>9302</mapsFrom>
+		<mapsTo>link[SeT]</mapsTo>
+		<state>identical</state>
+	</unitMap>
+</unitMappingSet>
