@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classMappingSet xmlns="http://www.energistics.org/energyml/data/uomv1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.energistics.org/energyml/data/uomv1 EnergisticsUnitOfMeasureDictionary_V1.0.xsd" version="1.0">
+	<title>Mapping from "UnitOfMeasure/QuantityType" values in the "POSC Unit Dictionary V2.2" dictionary to "quantityClass/name" values in the "Energistics Unit of Measure Dictionary V1.0" dictionary.</title>
+	<originator>Energistics</originator>
+	<description>This document asserts a mapping from one dictionary to another. The mapping is between items which appear to have the same semantics (i.e., are aliases) or a superset of semantics. All items in the "from" dictionary are listed. For each "from" item, if no "to" item is listed then there does not appear to be a direct mapping. This mapping is provided as an aid to migration and Energistics makes no guarantee of its accuracy. The "QuantityType" values within the POSC Unit Dictionary V2.2 generally represent a specialization of the Energistics quantity classes. This file is distributed under the Energistics License Agreement at http://www.energistics.org. Use of this file constitutes agreement with the Energistics License Agreement. Copyright (c) 2014 Energistics. All rights reserved.</description>
+	<classMap>
+		<mapsFrom>area per area</mapsFrom>
+		<mapsTo>area per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>dimensionless</mapsFrom>
+		<mapsTo>dimensionless</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force per force</mapsFrom>
+		<mapsTo>force per force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>length per length</mapsFrom>
+		<mapsTo>length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass concentration</mapsFrom>
+		<mapsTo>mass per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>relative power</mapsFrom>
+		<mapsTo>power per power</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>relative time</mapsFrom>
+		<mapsTo>time per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per volume</mapsFrom>
+		<mapsTo>volume per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pH</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>standard volume per volume</mapsFrom>
+		<mapsTo>volume per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per standard volume</mapsFrom>
+		<mapsTo>volume per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear thermal expansion</mapsFrom>
+		<mapsTo>linear thermal expansion</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volumetric thermal expansion</mapsFrom>
+		<mapsTo>volumetric thermal expansion</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>area per volume</mapsFrom>
+		<mapsTo>area per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per length</mapsFrom>
+		<mapsTo>reciprocal length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>length per volume</mapsFrom>
+		<mapsTo>length per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per area</mapsFrom>
+		<mapsTo>reciprocal area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per volume</mapsFrom>
+		<mapsTo>reciprocal volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per mass</mapsFrom>
+		<mapsTo>reciprocal mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>specific activity (of radioactivity)</mapsFrom>
+		<mapsTo>reciprocal (mass time)</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per time per volume</mapsFrom>
+		<mapsTo>(volume per time) per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>activity (of radioactivity)</mapsFrom>
+		<mapsTo>activity [of radioactivity]</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>frequency</mapsFrom>
+		<mapsTo>frequency</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>operations per time</mapsFrom>
+		<mapsTo>reciprocal time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>plane angle</mapsFrom>
+		<mapsTo>plane angle</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>angle per length</mapsFrom>
+		<mapsTo>angle per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>angle per volume</mapsFrom>
+		<mapsTo>angle per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>angle per time</mapsFrom>
+		<mapsTo>angular velocity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>angular acceleration</mapsFrom>
+		<mapsTo>angular acceleration</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>delta temperature</mapsFrom>
+		<mapsTo>temperature interval</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>temperature per length</mapsFrom>
+		<mapsTo>temperature interval per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>temperature per time</mapsFrom>
+		<mapsTo>temperature interval per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermal resistance</mapsFrom>
+		<mapsTo>thermal resistance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermal insulance</mapsFrom>
+		<mapsTo>thermal insulance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric current</mapsFrom>
+		<mapsTo>electric current</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic field strength</mapsFrom>
+		<mapsTo>magnetic field strength</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>current density</mapsFrom>
+		<mapsTo>electric current density</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>reluctance</mapsFrom>
+		<mapsTo>reluctance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric conductance</mapsFrom>
+		<mapsTo>electric conductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>conductivity</mapsFrom>
+		<mapsTo>electric conductivity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>capacitance</mapsFrom>
+		<mapsTo>capacitance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>permittivity</mapsFrom>
+		<mapsTo>permittivity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electromagnetic moment</mapsFrom>
+		<mapsTo>electromagnetic moment</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric dipole moment</mapsFrom>
+		<mapsTo>dipole moment</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric charge</mapsFrom>
+		<mapsTo>electric charge</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric polarization</mapsFrom>
+		<mapsTo>electric charge per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>charge density</mapsFrom>
+		<mapsTo>electric charge per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>equivalent per volume</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>exposure (radioactivity)</mapsFrom>
+		<mapsTo>electric charge per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>equivalent per mass</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>electrochemical equivalent</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>per electric potential</mapsFrom>
+		<mapsTo>reciprocal electric potential difference</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>luminous intensity</mapsFrom>
+		<mapsTo>luminous intensity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>luminance</mapsFrom>
+		<mapsTo>luminance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>luminous flux</mapsFrom>
+		<mapsTo>luminous flux</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>illuminance</mapsFrom>
+		<mapsTo>illuminance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>quantity of light</mapsFrom>
+		<mapsTo>quantity of light</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>light exposure</mapsFrom>
+		<mapsTo>light exposure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>luminous efficacy</mapsFrom>
+		<mapsTo>luminous efficacy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermodynamic temperature</mapsFrom>
+		<mapsTo>thermodynamic temperature</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>length</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per area</mapsFrom>
+		<mapsTo>volume per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>standard volume per area</mapsFrom>
+		<mapsTo>volume per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>length per temperature</mapsFrom>
+		<mapsTo>length per temperature</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per time per area</mapsFrom>
+		<mapsTo>(volume per time) per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>velocity</mapsFrom>
+		<mapsTo>length per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>acceleration linear</mapsFrom>
+		<mapsTo>linear acceleration</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>area</mapsFrom>
+		<mapsTo>area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>permeability rock</mapsFrom>
+		<mapsTo>permeability rock</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per length</mapsFrom>
+		<mapsTo>volume per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>specific heat capacity</mapsFrom>
+		<mapsTo>specific heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass attenuation coefficient</mapsFrom>
+		<mapsTo>area per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>cross section absorption</mapsFrom>
+		<mapsTo>area per amount of substance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per time per length</mapsFrom>
+		<mapsTo>(volume per time) per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>diffusion coefficient</mapsFrom>
+		<mapsTo>diffusion coefficient</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>kinematic viscosity</mapsFrom>
+		<mapsTo>kinematic viscosity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermal diffusivity</mapsFrom>
+		<mapsTo>thermal diffusivity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>absorbed dose</mapsFrom>
+		<mapsTo>absorbed dose</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>dose equivalent</mapsFrom>
+		<mapsTo>dose equivalent</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>specific energy</mapsFrom>
+		<mapsTo>energy per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>dose equivalent rate</mapsFrom>
+		<mapsTo>(energy per mass) per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>moment of inertia</mapsFrom>
+		<mapsTo>moment of inertia</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>molar heat capacity</mapsFrom>
+		<mapsTo>molar heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>heat capacity</mapsFrom>
+		<mapsTo>heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermal conductance</mapsFrom>
+		<mapsTo>thermal conductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>permeance</mapsFrom>
+		<mapsTo>inductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>resistance</mapsFrom>
+		<mapsTo>electric resistance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic flux</mapsFrom>
+		<mapsTo>magnetic flux</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric potential</mapsFrom>
+		<mapsTo>electric potential difference</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>chemical potential</mapsFrom>
+		<mapsTo>molar energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radiant intensity</mapsFrom>
+		<mapsTo>radiant intensity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>work</mapsFrom>
+		<mapsTo>energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>moment of force</mapsFrom>
+		<mapsTo>moment of force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>heat flow rate</mapsFrom>
+		<mapsTo>heat flow rate</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>power</mapsFrom>
+		<mapsTo>power</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>permeability length</mapsFrom>
+		<mapsTo>permeability length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume</mapsFrom>
+		<mapsTo>volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>standard volume</mapsFrom>
+		<mapsTo>volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>specific volume</mapsFrom>
+		<mapsTo>volume per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>molar volume</mapsFrom>
+		<mapsTo>molar volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume flow rate</mapsFrom>
+		<mapsTo>volume per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>standard volume per time</mapsFrom>
+		<mapsTo>volume per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume per time per time</mapsFrom>
+		<mapsTo>(volume per time) per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electrical resistivity</mapsFrom>
+		<mapsTo>electrical resistivity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic dipole moment</mapsFrom>
+		<mapsTo>magnetic dipole moment</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force area</mapsFrom>
+		<mapsTo>force area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>unit productivity index</mapsFrom>
+		<mapsTo>(volume per time) per (pressure length)</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mobility</mapsFrom>
+		<mapsTo>mobility</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>moment of section</mapsFrom>
+		<mapsTo>second moment of area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>second moment of area</mapsFrom>
+		<mapsTo>second moment of area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volume length per time</mapsFrom>
+		<mapsTo>(volume per time) length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>productivity index</mapsFrom>
+		<mapsTo>(volume per time) per pressure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>specific productivity index</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>mass length</mapsFrom>
+		<mapsTo>mass length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy length per time area temperature</mapsFrom>
+		<mapsTo>energy length per time area temperature</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thermal conductivity</mapsFrom>
+		<mapsTo>thermal conductivity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic permeability</mapsFrom>
+		<mapsTo>magnetic permeability</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>resistivity per length</mapsFrom>
+		<mapsTo>electric resistance per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic vector potential</mapsFrom>
+		<mapsTo>magnetic vector potential</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric field strength</mapsFrom>
+		<mapsTo>electric field strength</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>momentum</mapsFrom>
+		<mapsTo>momentum</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy length per area</mapsFrom>
+		<mapsTo>energy length per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy per length</mapsFrom>
+		<mapsTo>energy per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force</mapsFrom>
+		<mapsTo>force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force length per length</mapsFrom>
+		<mapsTo>force length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>isothermal compressibility</mapsFrom>
+		<mapsTo>isothermal compressibility</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>compressibility</mapsFrom>
+		<mapsTo>reciprocal pressure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass</mapsFrom>
+		<mapsTo>mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volumetric heat transfer coefficient</mapsFrom>
+		<mapsTo>volumetric heat transfer coefficient</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>heat transfer coefficient</mapsFrom>
+		<mapsTo>heat transfer coefficient</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic induction</mapsFrom>
+		<mapsTo>magnetic flux density</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass per length</mapsFrom>
+		<mapsTo>mass per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>surface density</mapsFrom>
+		<mapsTo>mass per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass per time per area</mapsFrom>
+		<mapsTo>(mass per time) per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force per volume</mapsFrom>
+		<mapsTo>force per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>density</mapsFrom>
+		<mapsTo>mass per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass per volume per length</mapsFrom>
+		<mapsTo>(mass per volume) per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure time per volume</mapsFrom>
+		<mapsTo>pressure time per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>Darcy flow coefficient</mapsFrom>
+		<mapsTo>pressure per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>nonDarcy flow coefficient</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>mass per time per length</mapsFrom>
+		<mapsTo>(mass per time) per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>dynamic viscosity</mapsFrom>
+		<mapsTo>dynamic viscosity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>modulus of compression</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure</mapsFrom>
+		<mapsTo>pressure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>power per volume</mapsFrom>
+		<mapsTo>power per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure per time</mapsFrom>
+		<mapsTo>pressure per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radiance</mapsFrom>
+		<mapsTo>radiance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass flow rate</mapsFrom>
+		<mapsTo>mass per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy per area</mapsFrom>
+		<mapsTo>energy per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force per length</mapsFrom>
+		<mapsTo>force per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>irradiance</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure squared</mapsFrom>
+		<mapsTo>pressure squared</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>parachor</mapsFrom>
+		<mapsTo />
+	</classMap>
+	<classMap>
+		<mapsFrom>amount of substance</mapsFrom>
+		<mapsTo>amount of substance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mole per area</mapsFrom>
+		<mapsTo>amount of substance per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mole per time per area</mapsFrom>
+		<mapsTo>(amount of substance per time) per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>concentration of B</mapsFrom>
+		<mapsTo>amount of substance per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mole per time</mapsFrom>
+		<mapsTo>amount of substance per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>gamma ray API unit</mapsFrom>
+		<mapsTo>API gamma ray</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>neutron API unit</mapsFrom>
+		<mapsTo>API neutron</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>attenuation</mapsFrom>
+		<mapsTo>attenuation per frequency interval</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>data transmission speed</mapsFrom>
+		<mapsTo>data transfer speed</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>digital storage</mapsFrom>
+		<mapsTo>digital storage</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>frequency interval</mapsFrom>
+		<mapsTo>frequency interval</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>level of power intensity</mapsFrom>
+		<mapsTo>logarithmic power ratio</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>attenuation per length</mapsFrom>
+		<mapsTo>logarithmic power ratio per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>solid angle</mapsFrom>
+		<mapsTo>solid angle</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>time</mapsFrom>
+		<mapsTo>time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>time per length</mapsFrom>
+		<mapsTo>time per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>time per volume</mapsFrom>
+		<mapsTo>time per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass per energy</mapsFrom>
+		<mapsTo>mass per energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per force</mapsFrom>
+		<mapsTo>reciprocal force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear concentration</mapsFrom>
+		<mapsTo>length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear strain</mapsFrom>
+		<mapsTo>length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>poisson ratio</mapsFrom>
+		<mapsTo>dimensionless</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>potential difference per per power drop</mapsFrom>
+		<mapsTo>potential difference per power drop</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>relative elongation</mapsFrom>
+		<mapsTo>length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>scale</mapsFrom>
+		<mapsTo>length per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>shear strain</mapsFrom>
+		<mapsTo>area per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>stadard volume per volume</mapsFrom>
+		<mapsTo>volume per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volumic concentration</mapsFrom>
+		<mapsTo>volume per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>wave number</mapsFrom>
+		<mapsTo>reciprocal length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>per time</mapsFrom>
+		<mapsTo>reciprocal time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>angular velocity</mapsFrom>
+		<mapsTo>angular velocity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>circular frequency</mapsFrom>
+		<mapsTo>angular velocity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>rotational frequency</mapsFrom>
+		<mapsTo>angular velocity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>rotational velocity</mapsFrom>
+		<mapsTo>angular velocity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>coefficient of thermal insulation</mapsFrom>
+		<mapsTo>thermal insulance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic potential difference</mapsFrom>
+		<mapsTo>electric current</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetomotive force</mapsFrom>
+		<mapsTo>electric current</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear electric current density</mapsFrom>
+		<mapsTo>magnetic field strength</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetization</mapsFrom>
+		<mapsTo>magnetic field strength</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>admittance</mapsFrom>
+		<mapsTo>electric conductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>susceptance</mapsFrom>
+		<mapsTo>electric conductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric capacity</mapsFrom>
+		<mapsTo>electric charge</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electric flux</mapsFrom>
+		<mapsTo>electric charge</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>luminous exitance</mapsFrom>
+		<mapsTo>illuminance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>breadth</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>Cartesian coordinates</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>depth</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>diameter</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>distance</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>height</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>length of path</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mean free path</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radius</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radius of curvature</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>standard volume  per area</mapsFrom>
+		<mapsTo>volume per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>thickness</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>wavelength</mapsFrom>
+		<mapsTo>length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>massic heat capacity</mapsFrom>
+		<mapsTo>specific heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>area per time</mapsFrom>
+		<mapsTo>area per time</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>molar entropy</mapsFrom>
+		<mapsTo>molar heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>molar gas constant</mapsFrom>
+		<mapsTo>molar heat capacity</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>self inductance</mapsFrom>
+		<mapsTo>inductance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>impedance</mapsFrom>
+		<mapsTo>electric resistance</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>affinity of a chemical reaction</mapsFrom>
+		<mapsTo>molar energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>molar thermodynamic energy</mapsFrom>
+		<mapsTo>molar energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy</mapsFrom>
+		<mapsTo>energy</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>moment of couple</mapsFrom>
+		<mapsTo>moment of force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>torque</mapsFrom>
+		<mapsTo>moment of force</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>massic volume</mapsFrom>
+		<mapsTo>volume per mass</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>impulse</mapsFrom>
+		<mapsTo>momentum</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>bulk compressibility</mapsFrom>
+		<mapsTo>reciprocal pressure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>magnetic flux density</mapsFrom>
+		<mapsTo>magnetic flux density</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear density</mapsFrom>
+		<mapsTo>mass per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>linear mass</mapsFrom>
+		<mapsTo>mass per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>areic mass</mapsFrom>
+		<mapsTo>mass per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure per length</mapsFrom>
+		<mapsTo>force per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>mass density</mapsFrom>
+		<mapsTo>mass per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>volumic mass</mapsFrom>
+		<mapsTo>mass per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>acoustic impedance</mapsFrom>
+		<mapsTo>pressure time per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>bulk modulus</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>electromagnetic energy density</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>force per area</mapsFrom>
+		<mapsTo>pressure</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>modulus of elasticity</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>modulus of rigidity</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>normal stress</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radiant energy density</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>shear modulus</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>shear stress</mapsFrom>
+		<mapsTo>energy per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>pressure squared per (dynamic viscosity)</mapsFrom>
+		<mapsTo>pressure squared per (force time per area)</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>density of heat flow rate</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>energy fluence rate</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>fluence rate</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>poynting vector</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radiant energy</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>radiant exitance</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>sound intensity</mapsFrom>
+		<mapsTo>power per area</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>amount of a substance</mapsFrom>
+		<mapsTo>amount of substance per volume</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>interval transit time</mapsFrom>
+		<mapsTo>time per length</mapsTo>
+	</classMap>
+	<classMap>
+		<mapsFrom>slowness</mapsFrom>
+		<mapsTo>time per length</mapsTo>
+	</classMap>
+</classMappingSet>
