@@ -1,0 +1,567 @@
+
+[
+    {
+        "companyCode": 213,
+        "name": "GeoEnergy, Inc."
+    },
+    {
+        "companyCode": 510,
+        "name": "Western"
+    },
+    {
+        "companyCode": 115,
+        "name": "COPGO Wood Group"
+    },
+    {
+        "companyCode": 90,
+        "name": "Compagnie de Services Numerique"
+    },
+    {
+        "companyCode": 145,
+        "name": "Deines Perforating"
+    },
+    {
+        "companyCode": 77,
+        "name": "CGG Logging, Massey France"
+    },
+    {
+        "companyCode": 155,
+        "name": "Dynamic Technologies (DTCC)"
+    },
+    {
+        "companyCode": 380,
+        "name": "Petrophysics"
+    },
+    {
+        "companyCode": 420,
+        "name": "Roke"
+    },
+    {
+        "companyCode": 472,
+        "name": "TGS"
+    },
+    {
+        "companyCode": 525,
+        "name": "Winters Wireline"
+    },
+    {
+        "companyCode": 495,
+        "name": "Wellsite Information Transfer Specification (WITS)"
+    },
+    {
+        "companyCode": 315,
+        "name": "Logicom Computer Services (UK) Ltd"
+    },
+    {
+        "companyCode": 370,
+        "name": "Petroleum Information"
+    },
+    {
+        "companyCode": 367,
+        "name": "Phoenixdata Services Pty Ltd."
+    },
+    {
+        "companyCode": 469,
+        "name": "Sercel, Inc."
+    },
+    {
+        "companyCode": 471,
+        "name": "Thrubit Logging(added 2009-09-09)"
+    },
+    {
+        "companyCode": 297,
+        "name": "iO Data AS"
+    },
+    {
+        "companyCode": 12,
+        "name": "ArenaPetro"
+    },
+    {
+        "companyCode": 333,
+        "name": "MST Ltd. (Modern Seismic Technologies) – added 2014-08-15)"
+    },
+    {
+        "companyCode": 120,
+        "name": "Core Laboratories"
+    },
+    {
+        "companyCode": 400,
+        "name": "Ram Guns"
+    },
+    {
+        "companyCode": 464,
+        "name": "Shell Services Company"
+    },
+    {
+        "companyCode": 345,
+        "name": "Perfco"
+    },
+    {
+        "companyCode": 2,
+        "name": "Driller"
+    },
+    {
+        "companyCode": 520,
+        "name": "Westronics"
+    },
+    {
+        "companyCode": 50,
+        "name": "Brett Exploration"
+    },
+    {
+        "companyCode": 217,
+        "name": "Geoshare"
+    },
+    {
+        "companyCode": 270,
+        "name": "Guns"
+    },
+    {
+        "companyCode": 350,
+        "name": "Perfojet Services"
+    },
+    {
+        "companyCode": 338,
+        "name": "NRI On-Line Inc"
+    },
+    {
+        "companyCode": 341,
+        "name": "Pason"
+    },
+    {
+        "companyCode": 130,
+        "name": "Digigraph"
+    },
+    {
+        "companyCode": 337,
+        "name": "DPTS Limited (formerly MR-DPTS Limited, changed as of 2008-08-12)"
+    },
+    {
+        "companyCode": 364,
+        "name": "PetroMar Technologies"
+    },
+    {
+        "companyCode": 295,
+        "name": "Input/Output, Inc."
+    },
+    {
+        "companyCode": 200,
+        "name": "Empire"
+    },
+    {
+        "companyCode": 11,
+        "name": "Applied Acoustic Engineering Ltd."
+    },
+    {
+        "companyCode": 340,
+        "name": "Pan Geo Atlas"
+    },
+    {
+        "companyCode": 6,
+        "name": "ALT – Advanced Logic Technology (added 2014-09-18)"
+    },
+    {
+        "companyCode": 392,
+        "name": "The Practical Well Log Standards Group"
+    },
+    {
+        "companyCode": 1000,
+        "name": "Energistics (formerly POSC, changed as of 2006-11-06)"
+    },
+    {
+        "companyCode": 20,
+        "name": "Baroid"
+    },
+    {
+        "companyCode": 218,
+        "name": "GEO·X Systems Ltd."
+    },
+    {
+        "companyCode": 9,
+        "name": "Amerada Hess"
+    },
+    {
+        "companyCode": 283,
+        "name": "Harvey Rock Physics (added 2015-01-13)"
+    },
+    {
+        "companyCode": 205,
+        "name": "Encom Technology, Ltd."
+    },
+    {
+        "companyCode": 320,
+        "name": "Magnolia"
+    },
+    {
+        "companyCode": 418,
+        "name": "RODE"
+    },
+    {
+        "companyCode": 280,
+        "name": "Halliburton Logging"
+    },
+    {
+        "companyCode": 460,
+        "name": "Seismograph Service"
+    },
+    {
+        "companyCode": 40,
+        "name": "Reeves (1 Jan 99; formerly BPB)"
+    },
+    {
+        "companyCode": 58,
+        "name": "RigCLOUD"
+    },
+    {
+        "companyCode": 206,
+        "name": "Ensigh Geophysics, Ltd."
+    },
+    {
+        "companyCode": 363,
+        "name": "Petrologic Limited"
+    },
+    {
+        "companyCode": 30,
+        "name": "Birdwell"
+    },
+    {
+        "companyCode": 475,
+        "name": "Troika International"
+    },
+    {
+        "companyCode": 4,
+        "name": "Abyssus Marine Services AS"
+    },
+    {
+        "companyCode": 463,
+        "name": "SEG Technical Standards High Density Media Format Subcommittee"
+    },
+    {
+        "companyCode": 260,
+        "name": "GTS"
+    },
+    {
+        "companyCode": 3,
+        "name": "Mud Logger"
+    },
+    {
+        "companyCode": 362,
+        "name": "CGG (FKA Petroleum Exploration Computer Consultants, Ltd)."
+    },
+    {
+        "companyCode": 148,
+        "name": "Drillog Petro-Dynamics Limited"
+    },
+    {
+        "companyCode": 467,
+        "name": "Sperry-Sun Drilling Services"
+    },
+    {
+        "companyCode": 300,
+        "name": "Jetwell"
+    },
+    {
+        "companyCode": 80,
+        "name": "Charlene Well Surveying"
+    },
+    {
+        "companyCode": 110,
+        "name": "Computrex"
+    },
+    {
+        "companyCode": 70,
+        "name": "Century Geophysical"
+    },
+    {
+        "companyCode": 170,
+        "name": "Electronic Logging Company"
+    },
+    {
+        "companyCode": 468,
+        "name": "SEPTCO"
+    },
+    {
+        "companyCode": 216,
+        "name": "Geophysical Data Systems (added 2015-01-13)"
+    },
+    {
+        "companyCode": 214,
+        "name": "Geokinetics Inc."
+    },
+    {
+        "companyCode": 395,
+        "name": "IHS Energy Log Services (formerly Q. C. Data Collectors)"
+    },
+    {
+        "companyCode": 0,
+        "name": "Subcommittee On Recommended Format For Digital Well Data, Basic Schema"
+    },
+    {
+        "companyCode": 35,
+        "name": "BP"
+    },
+    {
+        "companyCode": 330,
+        "name": "McCullough Tool"
+    },
+    {
+        "companyCode": 440,
+        "name": "Schlumberger"
+    },
+    {
+        "companyCode": 530,
+        "name": "Wireline Electronics"
+    },
+    {
+        "companyCode": 10,
+        "name": "Analysts, The"
+    },
+    {
+        "companyCode": 366,
+        "name": "Phillips Petroleum Company"
+    },
+    {
+        "companyCode": 410,
+        "name": "Riley’s Datashare"
+    },
+    {
+        "companyCode": 65,
+        "name": "Center Line Data"
+    },
+    {
+        "companyCode": 240,
+        "name": "Great Guns Servicing"
+    },
+    {
+        "companyCode": 361,
+        "name": "Petcom, Inc."
+    },
+    {
+        "companyCode": 125,
+        "name": "CRC Wireline, Inc."
+    },
+    {
+        "companyCode": 281,
+        "name": "Numar MRI Logging"
+    },
+    {
+        "companyCode": 293,
+        "name": "INOVA Geophysical Equipment Limited (updated 2012-04-02)"
+    },
+    {
+        "companyCode": 225,
+        "name": "GOWell Petroleum (added 2012-04-02)"
+    },
+    {
+        "companyCode": 220,
+        "name": "G O International"
+    },
+    {
+        "companyCode": 285,
+        "name": "Horizon Production Logging"
+    },
+    {
+        "companyCode": 368,
+        "name": "Petroleum Geo-Services (PGS)"
+    },
+    {
+        "companyCode": 999,
+        "name": "Reserved for local schemas"
+    },
+    {
+        "companyCode": 290,
+        "name": "Husky"
+    },
+    {
+        "companyCode": 137,
+        "name": "Tucker Technologies (formerly Digital Logging Inc.), Tulsa, OK."
+    },
+    {
+        "companyCode": 390,
+        "name": "Pioneer"
+    },
+    {
+        "companyCode": 250,
+        "name": "Great Lakes Petroleum Services"
+    },
+    {
+        "companyCode": 95,
+        "name": "Comprobe"
+    },
+    {
+        "companyCode": 480,
+        "name": "Welex"
+    },
+    {
+        "companyCode": 490,
+        "name": "Well Reconnaissance"
+    },
+    {
+        "companyCode": 500,
+        "name": "Well Surveys"
+    },
+    {
+        "companyCode": 465,
+        "name": "Stratigraphic Systems, Inc."
+    },
+    {
+        "companyCode": 230,
+        "name": "Gravilog"
+    },
+    {
+        "companyCode": 310,
+        "name": "Lane Wells"
+    },
+    {
+        "companyCode": 339,
+        "name": "Oilware, Inc."
+    },
+    {
+        "companyCode": 560,
+        "name": "Z & S Consultants Limited"
+    },
+    {
+        "companyCode": 85,
+        "name": "China Oilfield Services Limited (COSL) (added 2019-02-11)"
+    },
+    {
+        "companyCode": 461,
+        "name": "Stryde Further"
+    },
+    {
+        "companyCode": 66,
+        "name": "Subcommittee On Recommended Format For Digital Well Data, DLIS Schema"
+    },
+    {
+        "companyCode": 540,
+        "name": "Worth Well"
+    },
+    {
+        "companyCode": 430,
+        "name": "Sand Surveys"
+    },
+    {
+        "companyCode": 470,
+        "name": "Triangle"
+    },
+    {
+        "companyCode": 466,
+        "name": "Spectrum ASA"
+    },
+    {
+        "companyCode": 128,
+        "name": "Datalog Technology (added 2009-09-09)"
+    },
+    {
+        "companyCode": 1,
+        "name": "Operator"
+    },
+    {
+        "companyCode": 180,
+        "name": "Elgen"
+    },
+    {
+        "companyCode": 335,
+        "name": "Paradigm Geophysical (formerly Mincom Pty Ltd)"
+    },
+    {
+        "companyCode": 160,
+        "name": "Earthworm Drilling"
+    },
+    {
+        "companyCode": 60,
+        "name": "Cardinal"
+    },
+    {
+        "companyCode": 455,
+        "name": "Seismic Instruments, Inc."
+    },
+    {
+        "companyCode": 462,
+        "name": "SEGDEF"
+    },
+    {
+        "companyCode": 100,
+        "name": "Computer Data Processors"
+    },
+    {
+        "companyCode": 126,
+        "name": "Crocker Data Processing Pty Ltd"
+    },
+    {
+        "companyCode": 127,
+        "name": "Tucker Wireline Services (formerly Davis Great Guns Logging, Wichita, KS)"
+    },
+    {
+        "companyCode": 305,
+        "name": "Landmark Graphics"
+    },
+    {
+        "companyCode": 190,
+        "name": "El Toro"
+    },
+    {
+        "companyCode": 215,
+        "name": "Geolog"
+    },
+    {
+        "companyCode": 332,
+        "name": "Mitchell Energy Corporation"
+    },
+    {
+        "companyCode": 150,
+        "name": "Baker Atlas (formerly Dresser Atlas)"
+    },
+    {
+        "companyCode": 210,
+        "name": "Frontier"
+    },
+    {
+        "companyCode": 140,
+        "name": "Digitech"
+    },
+    {
+        "companyCode": 268,
+        "name": "Guardian Data Seismic Pty. Ltd."
+    },
+    {
+        "companyCode": 208,
+        "name": "Epoch (merged with Canrig, Nov 2008; added 2009-09-09)"
+    },
+    {
+        "companyCode": 342,
+        "name": "Pathfinder Energy Services"
+    },
+    {
+        "companyCode": 360,
+        "name": "Perforating Guns of Canada"
+    },
+    {
+        "companyCode": 450,
+        "name": "Scientific Software"
+    },
+    {
+        "companyCode": 19,
+        "name": "Bardasz"
+    },
+    {
+        "companyCode": 304,
+        "name": "Kongsberg"
+    },
+    {
+        "companyCode": 334,
+        "name": "NOV"
+    },
+    {
+        "companyCode": 365,
+        "name": "Petrolink"
+    },
+    {
+        "companyCode": 429,
+        "name": "SigmaStream"
+    },
+    {
+        "companyCode": 15,
+        "name": "Baker Hughes Inteq"
+    }
+]

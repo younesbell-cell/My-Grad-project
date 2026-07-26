@@ -1,0 +1,111 @@
+
+[
+    {
+        "name": "JOINED_GEOPH",
+        "description": "Joined Geophysical Well Logs"
+    },
+    {
+        "name": "NEU",
+        "description": "Neutron"
+    },
+    {
+        "name": "ARIN",
+        "description": "Array Induction Resistivity"
+    },
+    {
+        "name": "AGR",
+        "description": "Array gamma ray tool. Measures array of gamma ray measurements around the wellbore"
+    },
+    {
+        "name": "HDIA",
+        "description": "Hole Diameter (Caliper)"
+    },
+    {
+        "name": "ADEN",
+        "description": "Measures an array of density measurements around the wellbore"
+    },
+    {
+        "name": "AC",
+        "description": "Acoustic"
+    },
+    {
+        "name": "RLL",
+        "description": "Laterolog Resistivity"
+    },
+    {
+        "name": "SAMP",
+        "description": "Formation sampling tool. Could be wireline or LWD. Measures flows, and fluid composition"
+    },
+    {
+        "name": "REMP",
+        "description": "Electromagnetic Propagation Resistivity"
+    },
+    {
+        "name": "GR",
+        "description": "Gamma Ray"
+    },
+    {
+        "name": "SGR",
+        "description": "Spectral Gamma Ray"
+    },
+    {
+        "name": "ARLL",
+        "description": "Array Laterolog Resistivity"
+    },
+    {
+        "name": "SP",
+        "description": "Spontaneous Potential"
+    },
+    {
+        "name": "NMR",
+        "description": "Nuclear Magnetic Resonance"
+    },
+    {
+        "name": "SURF",
+        "description": "Measurements made from surface sensors. Could be split out into many different sub-categories (Rig, Gas, BOP, Environmental) but probably not worth it."
+    },
+    {
+        "name": "DIP",
+        "description": "Dipmeter"
+    },
+    {
+        "name": "FPR",
+        "description": "Formation Pressure"
+    },
+    {
+        "name": "RMIC",
+        "description": "Micro Resistivity"
+    },
+    {
+        "name": "DIR",
+        "description": "Directional measurements, including gravity, magnetic and gyro tools"
+    },
+    {
+        "name": "RIN",
+        "description": "Induction Resistivity"
+    },
+    {
+        "name": "DEN",
+        "description": "Density"
+    },
+    {
+        "name": "JOINED_PETRO",
+        "description": "Joined Petrophysical Well Logs"
+    },
+    {
+        "name": "DYN",
+        "description": "Drill string dynamics measurements. Includes downhole WOB, Torque, bending and various vibration modes"
+    },
+    {
+        "name": "AUX",
+        "description": "Auxiliary"
+    },
+    {
+        "name": "INTERP",
+        "description": "Petrophysical Well Log Interpretation"
+    },
+    {
+        "name": "AAC",
+        "description": "Array Acoustic"
+    }
+]
