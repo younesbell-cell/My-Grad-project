@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<integerCodeSet xmlns="http://www.energistics.org/energyml/data/uomv1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.energistics.org/energyml/data/uomv1 EnergisticsUnitOfMeasureDictionary_V1.0.xsd" version="1.0">
+	<title>Energistics Integer Code V1.0</title>
+	<originator>Energistics</originator>
+	<description>This specification assigns an integer code to Quantity Classes and to selected Units of Measure. 
+		The data is intended to be used in binary formats which constrain the space available for defining 
+		class and unit information. 
+		The data contains references to the Energistics Unit of Measure Dictionary V1.0 specification. 
+		A code may be deprecated but will never be removed. 
+		However, only "base for conversion" unit symbols are assigned a code and the conversion base is 
+		constrained to SI symbols so unit changes should be rare. 
+		If new classes are added in the associated specification then new codes will be added to the Code 
+		specification. 
+		The associated class dictionary will assert the unit symbol of the conversion base for each class. 
+		That is, this specification merely maps codes to the semantics defined in the associated dictionary. 
+		If there are multiple quantity classes with the same dimension then only the (numerically 
+		equivalent) alternative base for a class might be represented. 
+		This data is distributed under the Energistics License Agreement at http://www.energistics.org. 
+		Use of this file constitutes agreement with the Energistics License Agreement. 
+		Copyright (c) 2014 Energistics. 
+		All rights reserved.
+	</description>
+	<classCodeSet>
+		<classCode>
+			<term>(mass per time) per area</term>
+			<code>1001</code>
+			<unit code="2054">kg/(m2.s)</unit>
+		</classCode>
+		<classCode>
+			<term>(mass per time) per length</term>
+			<code>1002</code>
+			<unit code="2104">Pa.s</unit>
+		</classCode>
+		<classCode>
+			<term>(mass per volume) per length</term>
+			<code>1003</code>
+			<unit code="2059">kg/m4</unit>
+		</classCode>
+		<classCode>
+			<term>(amount of substance per time) per area</term>
+			<code>1004</code>
+			<unit code="2090">mol/(s.m2)</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) length</term>
+			<code>1005</code>
+			<unit code="2088">m4/s</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per area</term>
+			<code>1006</code>
+			<unit code="2070">m/s</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per length</term>
+			<code>1007</code>
+			<unit code="2076">m2/s</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per time</term>
+			<code>1008</code>
+			<unit code="2086">m3/s2</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per volume</term>
+			<code>1009</code>
+			<unit code="2010">1/s</unit>
+		</classCode>
+		<classCode>
+			<term>absorbed dose</term>
+			<code>1010</code>
+			<unit code="2033">Gy</unit>
+		</classCode>
+		<classCode>
+			<term>linear acceleration</term>
+			<code>1011</code>
+			<unit code="2071">m/s2</unit>
+		</classCode>
+		<classCode>
+			<term>activity [of radioactivity]</term>
+			<code>1012</code>
+			<unit code="2022">Bq</unit>
+		</classCode>
+		<classCode>
+			<term>amount of substance</term>
+			<code>1013</code>
+			<unit code="2089">mol</unit>
+		</classCode>
+		<classCode>
+			<term>angle per length</term>
+			<code>1014</code>
+			<unit code="2111">rad/m</unit>
+		</classCode>
+		<classCode>
+			<term>angle per volume</term>
+			<code>1015</code>
+			<unit code="2112">rad/m3</unit>
+		</classCode>
+		<classCode>
+			<term>angular acceleration</term>
+			<code>1016</code>
+			<unit code="2114">rad/s2</unit>
+		</classCode>
+		<classCode>
+			<term>angular velocity</term>
+			<code>1017</code>
+			<unit code="2113">rad/s</unit>
+		</classCode>
+		<classCode>
+			<term>area</term>
+			<code>1018</code>
+			<unit code="2072">m2</unit>
+		</classCode>
+		<classCode>
+			<term>area per area</term>
+			<code>1019</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>area per volume</term>
+			<code>1020</code>
+			<unit code="2005">1/m</unit>
+		</classCode>
+		<classCode>
+			<term>attenuation per frequency interval</term>
+			<code>1021</code>
+			<unit code="2019">B/O</unit>
+		</classCode>
+		<classCode>
+			<term>logarithmic power ratio per length</term>
+			<code>1022</code>
+			<unit code="2018">B/m</unit>
+		</classCode>
+		<classCode>
+			<term>capacitance</term>
+			<code>1023</code>
+			<unit code="2031">F</unit>
+		</classCode>
+		<classCode>
+			<term>amount of substance per volume</term>
+			<code>1024</code>
+			<unit code="2092">mol/m3</unit>
+		</classCode>
+		<classCode>
+			<term>electric conductivity</term>
+			<code>1025</code>
+			<unit code="2118">S/m</unit>
+		</classCode>
+		<classCode>
+			<term>area per amount of substance</term>
+			<code>1026</code>
+			<unit code="2075">m2/mol</unit>
+		</classCode>
+		<classCode>
+			<term>electric current density</term>
+			<code>1027</code>
+			<unit code="2015">A/m2</unit>
+		</classCode>
+		<classCode>
+			<term>pressure per volume</term>
+			<code>1028</code>
+			<unit code="2107">Pa/m3</unit>
+		</classCode>
+		<classCode>
+			<term>data transfer speed</term>
+			<code>1029</code>
+			<unit code="2021">bit/s</unit>
+		</classCode>
+		<classCode>
+			<term>temperature interval</term>
+			<code>1030</code>
+			<unit code="2141">deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>diffusion coefficient</term>
+			<code>1031</code>
+			<unit code="2076">m2/s</unit>
+		</classCode>
+		<classCode>
+			<term>digital storage</term>
+			<code>1032</code>
+			<unit code="2020">bit</unit>
+		</classCode>
+		<classCode>
+			<term>dimensionless</term>
+			<code>1033</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>dose equivalent</term>
+			<code>1034</code>
+			<unit code="2122">Sv</unit>
+		</classCode>
+		<classCode>
+			<term>(energy per mass) per time</term>
+			<code>1035</code>
+			<unit code="2123">Sv/s</unit>
+		</classCode>
+		<classCode>
+			<term>dynamic viscosity</term>
+			<code>1036</code>
+			<unit code="2104">Pa.s</unit>
+		</classCode>
+		<classCode>
+			<term>electric charge</term>
+			<code>1037</code>
+			<unit code="2024">C</unit>
+		</classCode>
+		<classCode>
+			<term>electric charge per volume</term>
+			<code>1038</code>
+			<unit code="2028">C/m3</unit>
+		</classCode>
+		<classCode>
+			<term>electric charge per area</term>
+			<code>1039</code>
+			<unit code="2027">C/m2</unit>
+		</classCode>
+		<classCode>
+			<term>electric conductance</term>
+			<code>1040</code>
+			<unit code="2115">S</unit>
+		</classCode>
+		<classCode>
+			<term>electric current</term>
+			<code>1041</code>
+			<unit code="2012">A</unit>
+		</classCode>
+		<classCode>
+			<term>dipole moment</term>
+			<code>1042</code>
+			<unit code="2025">C.m</unit>
+		</classCode>
+		<classCode>
+			<term>electric field strength</term>
+			<code>1043</code>
+			<unit code="2128">V/m</unit>
+		</classCode>
+		<classCode>
+			<term>electric potential difference</term>
+			<code>1044</code>
+			<unit code="2126">V</unit>
+		</classCode>
+		<classCode>
+			<term>electric resistance</term>
+			<code>1045</code>
+			<unit code="2100">ohm</unit>
+		</classCode>
+		<classCode>
+			<term>electrical resistivity</term>
+			<code>1046</code>
+			<unit code="2101">ohm.m</unit>
+		</classCode>
+		<classCode>
+			<term>electromagnetic moment</term>
+			<code>1047</code>
+			<unit code="2013">A.m2</unit>
+		</classCode>
+		<classCode>
+			<term>energy</term>
+			<code>1048</code>
+			<unit code="2037">J</unit>
+		</classCode>
+		<classCode>
+			<term>energy length per area</term>
+			<code>1049</code>
+			<unit code="2094">N</unit>
+		</classCode>
+		<classCode>
+			<term>energy length per time area temperature</term>
+			<code>1050</code>
+			<unit code="2130">W/(m.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>energy per area</term>
+			<code>1051</code>
+			<unit code="2096">N/m</unit>
+		</classCode>
+		<classCode>
+			<term>energy per length</term>
+			<code>1052</code>
+			<unit code="2094">N</unit>
+		</classCode>
+		<classCode>
+			<term>energy per volume</term>
+			<code>1053</code>
+			<unit code="2042">J/m3</unit>
+		</classCode>
+		<classCode>
+			<term>electric charge per mass</term>
+			<code>1054</code>
+			<unit code="2026">C/kg</unit>
+		</classCode>
+		<classCode>
+			<term>force</term>
+			<code>1055</code>
+			<unit code="2094">N</unit>
+		</classCode>
+		<classCode>
+			<term>force area</term>
+			<code>1056</code>
+			<unit code="2095">N.m2</unit>
+		</classCode>
+		<classCode>
+			<term>force length per length</term>
+			<code>1057</code>
+			<unit code="2094">N</unit>
+		</classCode>
+		<classCode>
+			<term>force per force</term>
+			<code>1058</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>force per length</term>
+			<code>1059</code>
+			<unit code="2096">N/m</unit>
+		</classCode>
+		<classCode>
+			<term>force per volume</term>
+			<code>1060</code>
+			<unit code="2097">N/m3</unit>
+		</classCode>
+		<classCode>
+			<term>frequency</term>
+			<code>1061</code>
+			<unit code="2036">Hz</unit>
+		</classCode>
+		<classCode>
+			<term>frequency interval</term>
+			<code>1062</code>
+			<unit code="2099">O</unit>
+		</classCode>
+		<classCode>
+			<term>heat capacity</term>
+			<code>1063</code>
+			<unit code="2040">J/deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>heat flow rate</term>
+			<code>1064</code>
+			<unit code="2129">W</unit>
+		</classCode>
+		<classCode>
+			<term>heat transfer coefficient</term>
+			<code>1065</code>
+			<unit code="2131">W/(m2.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>illuminance</term>
+			<code>1066</code>
+			<unit code="2064">lx</unit>
+		</classCode>
+		<classCode>
+			<term>isothermal compressibility</term>
+			<code>1067</code>
+			<unit code="2080">m3/J</unit>
+		</classCode>
+		<classCode>
+			<term>kinematic viscosity</term>
+			<code>1068</code>
+			<unit code="2076">m2/s</unit>
+		</classCode>
+		<classCode>
+			<term>length</term>
+			<code>1069</code>
+			<unit code="2066">m</unit>
+		</classCode>
+		<classCode>
+			<term>length per length</term>
+			<code>1070</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>length per mass</term>
+			<code>1071</code>
+			<unit code="2068">m/kg</unit>
+		</classCode>
+		<classCode>
+			<term>length per pressure</term>
+			<code>1072</code>
+			<unit code="2069">m/Pa</unit>
+		</classCode>
+		<classCode>
+			<term>length per temperature</term>
+			<code>1073</code>
+			<unit code="2067">m/deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>length per volume</term>
+			<code>1074</code>
+			<unit code="2006">1/m2</unit>
+		</classCode>
+		<classCode>
+			<term>logarithmic power ratio</term>
+			<code>1075</code>
+			<unit code="2016">B</unit>
+		</classCode>
+		<classCode>
+			<term>light exposure</term>
+			<code>1076</code>
+			<unit code="2065">lx.s</unit>
+		</classCode>
+		<classCode>
+			<term>linear thermal expansion</term>
+			<code>1077</code>
+			<unit code="2003">1/deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>luminance</term>
+			<code>1078</code>
+			<unit code="2030">cd/m2</unit>
+		</classCode>
+		<classCode>
+			<term>luminous efficacy</term>
+			<code>1079</code>
+			<unit code="2063">lm/W</unit>
+		</classCode>
+		<classCode>
+			<term>luminous flux</term>
+			<code>1080</code>
+			<unit code="2061">lm</unit>
+		</classCode>
+		<classCode>
+			<term>luminous intensity</term>
+			<code>1081</code>
+			<unit code="2029">cd</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic dipole moment</term>
+			<code>1082</code>
+			<unit code="2139">Wb.m</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic field strength</term>
+			<code>1083</code>
+			<unit code="2014">A/m</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic flux</term>
+			<code>1084</code>
+			<unit code="2138">Wb</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic flux density</term>
+			<code>1085</code>
+			<unit code="2124">T</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic flux density per length</term>
+			<code>1086</code>
+			<unit code="2125">T/m</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic permeability</term>
+			<code>1087</code>
+			<unit code="2035">H/m</unit>
+		</classCode>
+		<classCode>
+			<term>magnetic vector potential</term>
+			<code>1088</code>
+			<unit code="2140">Wb/m</unit>
+		</classCode>
+		<classCode>
+			<term>mass</term>
+			<code>1089</code>
+			<unit code="2050">kg</unit>
+		</classCode>
+		<classCode>
+			<term>area per mass</term>
+			<code>1090</code>
+			<unit code="2074">m2/kg</unit>
+		</classCode>
+		<classCode>
+			<term>mass length</term>
+			<code>1091</code>
+			<unit code="2051">kg.m</unit>
+		</classCode>
+		<classCode>
+			<term>mass per area</term>
+			<code>1092</code>
+			<unit code="2057">kg/m2</unit>
+		</classCode>
+		<classCode>
+			<term>mass per energy</term>
+			<code>1093</code>
+			<unit code="2055">kg/J</unit>
+		</classCode>
+		<classCode>
+			<term>mass per length</term>
+			<code>1094</code>
+			<unit code="2056">kg/m</unit>
+		</classCode>
+		<classCode>
+			<term>mass per mass</term>
+			<code>1095</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>mass per time</term>
+			<code>1096</code>
+			<unit code="2060">kg/s</unit>
+		</classCode>
+		<classCode>
+			<term>mass per volume</term>
+			<code>1097</code>
+			<unit code="2058">kg/m3</unit>
+		</classCode>
+		<classCode>
+			<term>mobility</term>
+			<code>1098</code>
+			<unit code="2073">m2/(Pa.s)</unit>
+		</classCode>
+		<classCode>
+			<term>molar energy</term>
+			<code>1099</code>
+			<unit code="2043">J/mol</unit>
+		</classCode>
+		<classCode>
+			<term>molar heat capacity</term>
+			<code>1100</code>
+			<unit code="2039">J/(mol.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>molar volume</term>
+			<code>1101</code>
+			<unit code="2082">m3/mol</unit>
+		</classCode>
+		<classCode>
+			<term>amount of substance per area</term>
+			<code>1102</code>
+			<unit code="2091">mol/m2</unit>
+		</classCode>
+		<classCode>
+			<term>amount of substance per time</term>
+			<code>1103</code>
+			<unit code="2093">mol/s</unit>
+		</classCode>
+		<classCode>
+			<term>moment of force</term>
+			<code>1104</code>
+			<unit code="2037">J</unit>
+		</classCode>
+		<classCode>
+			<term>moment of inertia</term>
+			<code>1105</code>
+			<unit code="2053">kg.m2</unit>
+		</classCode>
+		<classCode>
+			<term>momentum</term>
+			<code>1106</code>
+			<unit code="2052">kg.m/s</unit>
+		</classCode>
+		<classCode>
+			<term>nonDarcy flow coefficient</term>
+			<code>1107</code>
+			<deprecated>Deprecated in V1.0. The concept of "nonDarcy flow coefficient" could not be validated.</deprecated>
+			<unit code="2106">Pa.s/m6</unit>
+		</classCode>
+		<classCode>
+			<term>normalized power</term>
+			<code>1108</code>
+			<unit code="2017">B.W</unit>
+		</classCode>
+		<classCode>
+			<term>parachor</term>
+			<code>1109</code>
+			<deprecated>Deprecated in V1.0. 
+				The concept of "parachor" could not be validated because the units depend on the formula being used.
+			</deprecated>
+			<unit code="2098">N4/(kg.m7)</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal area</term>
+			<code>1110</code>
+			<unit code="2006">1/m2</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal electric potential difference</term>
+			<code>1111</code>
+			<unit code="2011">1/V</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal force</term>
+			<code>1112</code>
+			<unit code="2008">1/N</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal length</term>
+			<code>1113</code>
+			<unit code="2005">1/m</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal mass</term>
+			<code>1114</code>
+			<unit code="2004">1/kg</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal pressure</term>
+			<code>1115</code>
+			<unit code="2009">1/Pa</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal time</term>
+			<code>1116</code>
+			<unit code="2010">1/s</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal volume</term>
+			<code>1117</code>
+			<unit code="2007">1/m3</unit>
+		</classCode>
+		<classCode>
+			<term>permeability length</term>
+			<code>1118</code>
+			<unit code="2077">m3</unit>
+		</classCode>
+		<classCode>
+			<term>permeability rock</term>
+			<code>1119</code>
+			<unit code="2072">m2</unit>
+		</classCode>
+		<classCode>
+			<term>inductance</term>
+			<code>1120</code>
+			<unit code="2034">H</unit>
+		</classCode>
+		<classCode>
+			<term>permittivity</term>
+			<code>1121</code>
+			<unit code="2032">F/m</unit>
+		</classCode>
+		<classCode>
+			<term>plane angle</term>
+			<code>1122</code>
+			<unit code="2110">rad</unit>
+		</classCode>
+		<classCode>
+			<term>potential difference per power drop</term>
+			<code>1123</code>
+			<unit code="2127">V/B</unit>
+		</classCode>
+		<classCode>
+			<term>power</term>
+			<code>1124</code>
+			<unit code="2129">W</unit>
+		</classCode>
+		<classCode>
+			<term>power per area</term>
+			<code>1125</code>
+			<unit code="2135">W/m2</unit>
+		</classCode>
+		<classCode>
+			<term>power per power</term>
+			<code>1126</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>power per volume</term>
+			<code>1127</code>
+			<unit code="2136">W/m3</unit>
+		</classCode>
+		<classCode>
+			<term>pressure</term>
+			<code>1128</code>
+			<unit code="2103">Pa</unit>
+		</classCode>
+		<classCode>
+			<term>pressure per time</term>
+			<code>1129</code>
+			<unit code="2108">Pa/s</unit>
+		</classCode>
+		<classCode>
+			<term>pressure squared</term>
+			<code>1130</code>
+			<unit code="2109">Pa2</unit>
+		</classCode>
+		<classCode>
+			<term>pressure squared per (force time per area)</term>
+			<code>1131</code>
+			<unit code="2136">W/m3</unit>
+		</classCode>
+		<classCode>
+			<term>pressure time per volume</term>
+			<code>1132</code>
+			<unit code="2105">Pa.s/m3</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per pressure</term>
+			<code>1133</code>
+			<unit code="2078">m3/(Pa.s)</unit>
+		</classCode>
+		<classCode>
+			<term>quantity of light</term>
+			<code>1134</code>
+			<unit code="2062">lm.s</unit>
+		</classCode>
+		<classCode>
+			<term>radiance</term>
+			<code>1135</code>
+			<unit code="2132">W/(m2.sr)</unit>
+		</classCode>
+		<classCode>
+			<term>radiant intensity</term>
+			<code>1136</code>
+			<unit code="2137">W/sr</unit>
+		</classCode>
+		<classCode>
+			<term>reluctance</term>
+			<code>1137</code>
+			<unit code="2002">1/H</unit>
+		</classCode>
+		<classCode>
+			<term>electric resistance per length</term>
+			<code>1138</code>
+			<unit code="2102">ohm/m</unit>
+		</classCode>
+		<classCode>
+			<term>second moment of area</term>
+			<code>1139</code>
+			<unit code="2087">m4</unit>
+		</classCode>
+		<classCode>
+			<term>solid angle</term>
+			<code>1140</code>
+			<unit code="2121">sr</unit>
+		</classCode>
+		<classCode>
+			<term>reciprocal (mass time)</term>
+			<code>1141</code>
+			<unit code="2023">Bq/kg</unit>
+		</classCode>
+		<classCode>
+			<term>energy per mass</term>
+			<code>1142</code>
+			<unit code="2041">J/kg</unit>
+		</classCode>
+		<classCode>
+			<term>specific heat capacity</term>
+			<code>1143</code>
+			<unit code="2038">J/(kg.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>specific productivity index</term>
+			<code>1144</code>
+			<deprecated>Deprecated in V1.0. The concept of "specific productivity index" could not be validated.</deprecated>
+			<unit code="2079">m3/(Pa2.s2)</unit>
+		</classCode>
+		<classCode>
+			<term>volume per mass</term>
+			<code>1145</code>
+			<unit code="2081">m3/kg</unit>
+		</classCode>
+		<classCode>
+			<term>temperature interval per length</term>
+			<code>1146</code>
+			<unit code="2046">deltaK/m</unit>
+		</classCode>
+		<classCode>
+			<term>temperature interval per pressure</term>
+			<code>1147</code>
+			<unit code="2047">deltaK/Pa</unit>
+		</classCode>
+		<classCode>
+			<term>temperature interval per time</term>
+			<code>1148</code>
+			<unit code="2048">deltaK/s</unit>
+		</classCode>
+		<classCode>
+			<term>thermal conductance</term>
+			<code>1149</code>
+			<unit code="2134">W/deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>thermal conductivity</term>
+			<code>1150</code>
+			<unit code="2130">W/(m.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>thermal diffusivity</term>
+			<code>1151</code>
+			<unit code="2076">m2/s</unit>
+		</classCode>
+		<classCode>
+			<term>thermal insulance</term>
+			<code>1152</code>
+			<unit code="2045">deltaK.m2/W</unit>
+		</classCode>
+		<classCode>
+			<term>thermal resistance</term>
+			<code>1153</code>
+			<unit code="2049">deltaK/W</unit>
+		</classCode>
+		<classCode>
+			<term>thermodynamic temperature</term>
+			<code>1154</code>
+			<unit code="2044">K</unit>
+		</classCode>
+		<classCode>
+			<term>time</term>
+			<code>1155</code>
+			<unit code="2116">s</unit>
+		</classCode>
+		<classCode>
+			<term>time per length</term>
+			<code>1156</code>
+			<unit code="2119">s/m</unit>
+		</classCode>
+		<classCode>
+			<term>time per mass</term>
+			<code>1157</code>
+			<unit code="2117">s/kg</unit>
+		</classCode>
+		<classCode>
+			<term>time per time</term>
+			<code>1158</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>time per volume</term>
+			<code>1159</code>
+			<unit code="2120">s/m3</unit>
+		</classCode>
+		<classCode>
+			<term>(volume per time) per (pressure length)</term>
+			<code>1160</code>
+			<unit code="2073">m2/(Pa.s)</unit>
+		</classCode>
+		<classCode>
+			<term>length per time</term>
+			<code>1161</code>
+			<unit code="2070">m/s</unit>
+		</classCode>
+		<classCode>
+			<term>volume</term>
+			<code>1162</code>
+			<unit code="2077">m3</unit>
+		</classCode>
+		<classCode>
+			<term>volume flow rate per volume flow rate</term>
+			<code>1163</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>volume per area</term>
+			<code>1164</code>
+			<unit code="2066">m</unit>
+		</classCode>
+		<classCode>
+			<term>volume per length</term>
+			<code>1165</code>
+			<unit code="2072">m2</unit>
+		</classCode>
+		<classCode>
+			<term>volume per pressure</term>
+			<code>1166</code>
+			<unit code="2083">m3/Pa</unit>
+		</classCode>
+		<classCode>
+			<term>volume per rotation</term>
+			<code>1167</code>
+			<unit code="2084">m3/rad</unit>
+		</classCode>
+		<classCode>
+			<term>volume per time</term>
+			<code>1168</code>
+			<unit code="2085">m3/s</unit>
+		</classCode>
+		<classCode>
+			<term>volume per volume</term>
+			<code>1169</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>volumetric heat transfer coefficient</term>
+			<code>1170</code>
+			<unit code="2133">W/(m3.deltaK)</unit>
+		</classCode>
+		<classCode>
+			<term>volumetric thermal expansion</term>
+			<code>1171</code>
+			<unit code="2003">1/deltaK</unit>
+		</classCode>
+		<classCode>
+			<term>area per time</term>
+			<code>1172</code>
+			<unit code="2076">m2/s</unit>
+		</classCode>
+		<classCode>
+			<term>API gravity</term>
+			<code>1173</code>
+			<unit code="2143">dAPI</unit>
+		</classCode>
+		<classCode>
+			<term>API gamma ray</term>
+			<code>1174</code>
+			<unit code="2144">gAPI</unit>
+		</classCode>
+		<classCode>
+			<term>API neutron</term>
+			<code>1175</code>
+			<unit code="2145">nAPI</unit>
+		</classCode>
+		<classCode>
+			<term>amount of substance per amount of substance</term>
+			<code>1176</code>
+			<unit code="2142">Euc</unit>
+		</classCode>
+		<classCode>
+			<term>molecular weight</term>
+			<code>1177</code>
+			<unit code="2146">kg/mol</unit>
+		</classCode>
+		<classCode>
+			<term>signaling event per time</term>
+			<code>1178</code>
+			<unit code="2010">1/s</unit>
+		</classCode>
+	</classCodeSet>
+	<unitCodeSet>
+		<unitCode>
+			<term>%</term>
+			<code>2001</code>
+			<deprecated>Replaced by "Euc" in V1.0. Percent is "0.01 Euc".</deprecated>
+		</unitCode>
+		<unitCode>
+			<term>1/H</term>
+			<code>2002</code>
+		</unitCode>
+		<unitCode>
+			<term>1/deltaK</term>
+			<code>2003</code>
+		</unitCode>
+		<unitCode>
+			<term>1/kg</term>
+			<code>2004</code>
+		</unitCode>
+		<unitCode>
+			<term>1/m</term>
+			<code>2005</code>
+		</unitCode>
+		<unitCode>
+			<term>1/m2</term>
+			<code>2006</code>
+		</unitCode>
+		<unitCode>
+			<term>1/m3</term>
+			<code>2007</code>
+		</unitCode>
+		<unitCode>
+			<term>1/N</term>
+			<code>2008</code>
+		</unitCode>
+		<unitCode>
+			<term>1/Pa</term>
+			<code>2009</code>
+		</unitCode>
+		<unitCode>
+			<term>1/s</term>
+			<code>2010</code>
+		</unitCode>
+		<unitCode>
+			<term>1/V</term>
+			<code>2011</code>
+		</unitCode>
+		<unitCode>
+			<term>A</term>
+			<code>2012</code>
+		</unitCode>
+		<unitCode>
+			<term>A.m2</term>
+			<code>2013</code>
+		</unitCode>
+		<unitCode>
+			<term>A/m</term>
+			<code>2014</code>
+		</unitCode>
+		<unitCode>
+			<term>A/m2</term>
+			<code>2015</code>
+		</unitCode>
+		<unitCode>
+			<term>B</term>
+			<code>2016</code>
+		</unitCode>
+		<unitCode>
+			<term>B.W</term>
+			<code>2017</code>
+		</unitCode>
+		<unitCode>
+			<term>B/m</term>
+			<code>2018</code>
+		</unitCode>
+		<unitCode>
+			<term>B/O</term>
+			<code>2019</code>
+		</unitCode>
+		<unitCode>
+			<term>bit</term>
+			<code>2020</code>
+		</unitCode>
+		<unitCode>
+			<term>bit/s</term>
+			<code>2021</code>
+		</unitCode>
+		<unitCode>
+			<term>Bq</term>
+			<code>2022</code>
+		</unitCode>
+		<unitCode>
+			<term>Bq/kg</term>
+			<code>2023</code>
+		</unitCode>
+		<unitCode>
+			<term>C</term>
+			<code>2024</code>
+		</unitCode>
+		<unitCode>
+			<term>C.m</term>
+			<code>2025</code>
+		</unitCode>
+		<unitCode>
+			<term>C/kg</term>
+			<code>2026</code>
+		</unitCode>
+		<unitCode>
+			<term>C/m2</term>
+			<code>2027</code>
+		</unitCode>
+		<unitCode>
+			<term>C/m3</term>
+			<code>2028</code>
+		</unitCode>
+		<unitCode>
+			<term>cd</term>
+			<code>2029</code>
+		</unitCode>
+		<unitCode>
+			<term>cd/m2</term>
+			<code>2030</code>
+		</unitCode>
+		<unitCode>
+			<term>F</term>
+			<code>2031</code>
+		</unitCode>
+		<unitCode>
+			<term>F/m</term>
+			<code>2032</code>
+		</unitCode>
+		<unitCode>
+			<term>Gy</term>
+			<code>2033</code>
+		</unitCode>
+		<unitCode>
+			<term>H</term>
+			<code>2034</code>
+		</unitCode>
+		<unitCode>
+			<term>H/m</term>
+			<code>2035</code>
+		</unitCode>
+		<unitCode>
+			<term>Hz</term>
+			<code>2036</code>
+		</unitCode>
+		<unitCode>
+			<term>J</term>
+			<code>2037</code>
+		</unitCode>
+		<unitCode>
+			<term>J/(kg.deltaK)</term>
+			<code>2038</code>
+		</unitCode>
+		<unitCode>
+			<term>J/(mol.deltaK)</term>
+			<code>2039</code>
+		</unitCode>
+		<unitCode>
+			<term>J/deltaK</term>
+			<code>2040</code>
+		</unitCode>
+		<unitCode>
+			<term>J/kg</term>
+			<code>2041</code>
+		</unitCode>
+		<unitCode>
+			<term>J/m3</term>
+			<code>2042</code>
+		</unitCode>
+		<unitCode>
+			<term>J/mol</term>
+			<code>2043</code>
+		</unitCode>
+		<unitCode>
+			<term>K</term>
+			<code>2044</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK.m2/W</term>
+			<code>2045</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK/m</term>
+			<code>2046</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK/Pa</term>
+			<code>2047</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK/s</term>
+			<code>2048</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK/W</term>
+			<code>2049</code>
+		</unitCode>
+		<unitCode>
+			<term>kg</term>
+			<code>2050</code>
+		</unitCode>
+		<unitCode>
+			<term>kg.m</term>
+			<code>2051</code>
+		</unitCode>
+		<unitCode>
+			<term>kg.m/s</term>
+			<code>2052</code>
+		</unitCode>
+		<unitCode>
+			<term>kg.m2</term>
+			<code>2053</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/(m2.s)</term>
+			<code>2054</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/J</term>
+			<code>2055</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/m</term>
+			<code>2056</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/m2</term>
+			<code>2057</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/m3</term>
+			<code>2058</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/m4</term>
+			<code>2059</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/s</term>
+			<code>2060</code>
+		</unitCode>
+		<unitCode>
+			<term>lm</term>
+			<code>2061</code>
+		</unitCode>
+		<unitCode>
+			<term>lm.s</term>
+			<code>2062</code>
+		</unitCode>
+		<unitCode>
+			<term>lm/W</term>
+			<code>2063</code>
+		</unitCode>
+		<unitCode>
+			<term>lx</term>
+			<code>2064</code>
+		</unitCode>
+		<unitCode>
+			<term>lx.s</term>
+			<code>2065</code>
+		</unitCode>
+		<unitCode>
+			<term>m</term>
+			<code>2066</code>
+		</unitCode>
+		<unitCode>
+			<term>m/deltaK</term>
+			<code>2067</code>
+		</unitCode>
+		<unitCode>
+			<term>m/kg</term>
+			<code>2068</code>
+		</unitCode>
+		<unitCode>
+			<term>m/Pa</term>
+			<code>2069</code>
+		</unitCode>
+		<unitCode>
+			<term>m/s</term>
+			<code>2070</code>
+		</unitCode>
+		<unitCode>
+			<term>m/s2</term>
+			<code>2071</code>
+		</unitCode>
+		<unitCode>
+			<term>m2</term>
+			<code>2072</code>
+		</unitCode>
+		<unitCode>
+			<term>m2/(Pa.s)</term>
+			<code>2073</code>
+		</unitCode>
+		<unitCode>
+			<term>m2/kg</term>
+			<code>2074</code>
+		</unitCode>
+		<unitCode>
+			<term>m2/mol</term>
+			<code>2075</code>
+		</unitCode>
+		<unitCode>
+			<term>m2/s</term>
+			<code>2076</code>
+		</unitCode>
+		<unitCode>
+			<term>m3</term>
+			<code>2077</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/(Pa.s)</term>
+			<code>2078</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/(Pa2.s2)</term>
+			<code>2079</code>
+			<deprecated>Deprecated in V1.0. The concept of "specific productivity index" could not be validated.</deprecated>
+		</unitCode>
+		<unitCode>
+			<term>m3/J</term>
+			<code>2080</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/kg</term>
+			<code>2081</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/mol</term>
+			<code>2082</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/Pa</term>
+			<code>2083</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/rad</term>
+			<code>2084</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/s</term>
+			<code>2085</code>
+		</unitCode>
+		<unitCode>
+			<term>m3/s2</term>
+			<code>2086</code>
+		</unitCode>
+		<unitCode>
+			<term>m4</term>
+			<code>2087</code>
+		</unitCode>
+		<unitCode>
+			<term>m4/s</term>
+			<code>2088</code>
+		</unitCode>
+		<unitCode>
+			<term>mol</term>
+			<code>2089</code>
+		</unitCode>
+		<unitCode>
+			<term>mol/(s.m2)</term>
+			<code>2090</code>
+		</unitCode>
+		<unitCode>
+			<term>mol/m2</term>
+			<code>2091</code>
+		</unitCode>
+		<unitCode>
+			<term>mol/m3</term>
+			<code>2092</code>
+		</unitCode>
+		<unitCode>
+			<term>mol/s</term>
+			<code>2093</code>
+		</unitCode>
+		<unitCode>
+			<term>N</term>
+			<code>2094</code>
+		</unitCode>
+		<unitCode>
+			<term>N.m2</term>
+			<code>2095</code>
+		</unitCode>
+		<unitCode>
+			<term>N/m</term>
+			<code>2096</code>
+		</unitCode>
+		<unitCode>
+			<term>N/m3</term>
+			<code>2097</code>
+		</unitCode>
+		<unitCode>
+			<term>N4/(kg.m7)</term>
+			<code>2098</code>
+			<deprecated>Deprecated in V1.0. 
+				The parachor class was eliminated because the units depend on the formula being used.
+			</deprecated>
+		</unitCode>
+		<unitCode>
+			<term>O</term>
+			<code>2099</code>
+		</unitCode>
+		<unitCode>
+			<term>ohm</term>
+			<code>2100</code>
+		</unitCode>
+		<unitCode>
+			<term>ohm.m</term>
+			<code>2101</code>
+		</unitCode>
+		<unitCode>
+			<term>ohm/m</term>
+			<code>2102</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa</term>
+			<code>2103</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa.s</term>
+			<code>2104</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa.s/m3</term>
+			<code>2105</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa.s/m6</term>
+			<code>2106</code>
+			<deprecated>Deprecated in V1.0. The concept of "nonDarcy flow coefficient" could not be validated.</deprecated>
+		</unitCode>
+		<unitCode>
+			<term>Pa/m3</term>
+			<code>2107</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa/s</term>
+			<code>2108</code>
+		</unitCode>
+		<unitCode>
+			<term>Pa2</term>
+			<code>2109</code>
+		</unitCode>
+		<unitCode>
+			<term>rad</term>
+			<code>2110</code>
+		</unitCode>
+		<unitCode>
+			<term>rad/m</term>
+			<code>2111</code>
+		</unitCode>
+		<unitCode>
+			<term>rad/m3</term>
+			<code>2112</code>
+		</unitCode>
+		<unitCode>
+			<term>rad/s</term>
+			<code>2113</code>
+		</unitCode>
+		<unitCode>
+			<term>rad/s2</term>
+			<code>2114</code>
+		</unitCode>
+		<unitCode>
+			<term>S</term>
+			<code>2115</code>
+		</unitCode>
+		<unitCode>
+			<term>s</term>
+			<code>2116</code>
+		</unitCode>
+		<unitCode>
+			<term>s/kg</term>
+			<code>2117</code>
+		</unitCode>
+		<unitCode>
+			<term>S/m</term>
+			<code>2118</code>
+		</unitCode>
+		<unitCode>
+			<term>s/m</term>
+			<code>2119</code>
+		</unitCode>
+		<unitCode>
+			<term>s/m3</term>
+			<code>2120</code>
+		</unitCode>
+		<unitCode>
+			<term>sr</term>
+			<code>2121</code>
+		</unitCode>
+		<unitCode>
+			<term>Sv</term>
+			<code>2122</code>
+		</unitCode>
+		<unitCode>
+			<term>Sv/s</term>
+			<code>2123</code>
+		</unitCode>
+		<unitCode>
+			<term>T</term>
+			<code>2124</code>
+		</unitCode>
+		<unitCode>
+			<term>T/m</term>
+			<code>2125</code>
+		</unitCode>
+		<unitCode>
+			<term>V</term>
+			<code>2126</code>
+		</unitCode>
+		<unitCode>
+			<term>V/B</term>
+			<code>2127</code>
+		</unitCode>
+		<unitCode>
+			<term>V/m</term>
+			<code>2128</code>
+		</unitCode>
+		<unitCode>
+			<term>W</term>
+			<code>2129</code>
+		</unitCode>
+		<unitCode>
+			<term>W/(m.deltaK)</term>
+			<code>2130</code>
+		</unitCode>
+		<unitCode>
+			<term>W/(m2.deltaK)</term>
+			<code>2131</code>
+		</unitCode>
+		<unitCode>
+			<term>W/(m2.sr)</term>
+			<code>2132</code>
+		</unitCode>
+		<unitCode>
+			<term>W/(m3.deltaK)</term>
+			<code>2133</code>
+		</unitCode>
+		<unitCode>
+			<term>W/deltaK</term>
+			<code>2134</code>
+		</unitCode>
+		<unitCode>
+			<term>W/m2</term>
+			<code>2135</code>
+		</unitCode>
+		<unitCode>
+			<term>W/m3</term>
+			<code>2136</code>
+		</unitCode>
+		<unitCode>
+			<term>W/sr</term>
+			<code>2137</code>
+		</unitCode>
+		<unitCode>
+			<term>Wb</term>
+			<code>2138</code>
+		</unitCode>
+		<unitCode>
+			<term>Wb.m</term>
+			<code>2139</code>
+		</unitCode>
+		<unitCode>
+			<term>Wb/m</term>
+			<code>2140</code>
+		</unitCode>
+		<unitCode>
+			<term>deltaK</term>
+			<code>2141</code>
+		</unitCode>
+		<unitCode>
+			<term>Euc</term>
+			<code>2142</code>
+		</unitCode>
+		<unitCode>
+			<term>dAPI</term>
+			<code>2143</code>
+		</unitCode>
+		<unitCode>
+			<term>gAPI</term>
+			<code>2144</code>
+		</unitCode>
+		<unitCode>
+			<term>nAPI</term>
+			<code>2145</code>
+		</unitCode>
+		<unitCode>
+			<term>kg/mol</term>
+			<code>2146</code>
+		</unitCode>
+	</unitCodeSet>
+</integerCodeSet>
